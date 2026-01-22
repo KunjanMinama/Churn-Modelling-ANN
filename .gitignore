@@ -1,8 +1,23 @@
+# Byte-compiled files
 __pycache__/
-.ipynb_checkpoints/
-.DS_Store
-*.h5
-*.pkl
 *.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
 venv/
 .env/
+
+# System files
+.DS_Store
+
+# Ignore large model formats (we will track only yours)
+# *.h5
+# *.pkl
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
